@@ -1,0 +1,35 @@
+h1{
+    background-color:blue;
+}
+.pics{
+    width:900;
+}
+.carousel-inner{
+    position:relative;
+    left:30vw;
+    top:10vh;
+    max-width:1000px;
+}
+body{
+overflow-x:hidden;
+}
+.carousel-control-next-icon{
+    position:relative;
+    right:21vw;
+    top:7vh;
+}
+.carousel-control-prev-icon{
+    position:relative;
+    left:24vw;
+    top:7vh;
+}
+h2{
+    background-color:pink;
+}
+h3{
+    background-color:yellow;
+}
+h4{
+    background-color:blue;
+    color:white;
+}

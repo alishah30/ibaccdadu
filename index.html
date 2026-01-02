@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IBA CC Dadu — Home</title>
+
+<style>
+:root{
+  --blue:#0b63ff;
+  --blue-soft:#3aa0ff;
+  --dark:#020617;
+  --glass:rgba(255,255,255,.08);
+}
+
+*{box-sizing:border-box}
+
+body{
+  margin:0;
+  min-height:100vh;
+  font-family:Arial, sans-serif;
+  color:#fff;
+  background:
+    radial-gradient(circle at top left,#0b63ff33,transparent 40%),
+    radial-gradient(circle at bottom right,#3aa0ff22,transparent 45%),
+    linear-gradient(135deg,#020617,#071233,#020617);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+/* NAVBAR */
+.nav{
+  position:absolute;
+  top:18px;
+  width:100%;
+  display:flex;
+  justify-content:center;
+  font-weight:600;
+  letter-spacing:.4px;
+  opacity:.9;
+}
+
+.nav span{
+  padding:8px 18px;
+  border-radius:999px;
+  background:rgba(255,255,255,.08);
+  border:1px solid rgba(255,255,255,.18);
+}
+
+/* MAIN CARD */
+.card{
+  width:92%;
+  max-width:720px;
+  padding:46px;
+  border-radius:26px;
+  background:var(--glass);
+  backdrop-filter:blur(18px);
+  border:1px solid rgba(255,255,255,.15);
+  box-shadow:0 22px 55px rgba(0,0,0,.55);
+  text-align:center;
+}
+
+/* LOGO */
+.logo{
+  display:inline-block;
+  padding:12px 30px;
+  border-radius:16px;
+  background:linear-gradient(90deg,var(--blue),var(--blue-soft));
+  font-weight:700;
+  letter-spacing:.6px;
+  margin-bottom:20px;
+}
+
+/* TEXT */
+h1{
+  margin:14px 0 10px;
+  font-size:36px;
+}
+
+p{
+  margin:0;
+  font-size:17px;
+  opacity:.92;
+  line-height:1.7;
+}
+
+/* DIVIDER */
+.hr{
+  width:70%;
+  height:1px;
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,.3),transparent);
+  margin:26px auto;
+}
+
+/* FACILITIES */
+.facilities{
+  display:flex;
+  gap:12px;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+.facilities span{
+  padding:11px 20px;
+  border-radius:999px;
+  background:rgba(255,255,255,.12);
+  border:1px solid rgba(255,255,255,.22);
+  font-size:15px;
+}
+
+/* STATS */
+.stats{
+  margin-top:28px;
+  display:flex;
+  justify-content:space-around;
+  font-size:14px;
+  opacity:.9;
+}
+
+.stats div strong{
+  display:block;
+  font-size:18px;
+  opacity:1;
+}
+
+/* LANGUAGE */
+.lang-btns{
+  margin-top:30px;
+}
+
+.lang-btns button{
+  padding:10px 22px;
+  margin:4px;
+  border-radius:12px;
+  background:transparent;
+  border:1px solid rgba(255,255,255,.28);
+  color:#fff;
+  font-weight:600;
+  cursor:pointer;
+}
+
+.active{
+  background:linear-gradient(90deg,var(--blue),var(--blue-soft));
+  border:none;
+}
+
+/* CTA */
+.cta{
+  margin-top:34px;
+  display:flex;
+  gap:16px;
+  justify-content:center;
+}
+
+.cta button{
+  padding:15px 30px;
+  border-radius:16px;
+  border:none;
+  font-weight:700;
+  cursor:pointer;
+}
+
+.primary{
+  background:linear-gradient(90deg,var(--blue),var(--blue-soft));
+  color:#fff;
+}
+
+.ghost{
+  background:transparent;
+  border:1px solid rgba(255,255,255,.4);
+  color:#fff;
+}
+
+/* FOOTER */
+.footer{
+  margin-top:32px;
+  font-size:13px;
+  opacity:.7;
+}
+</style>
+</head>
+
+<body>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<div class="nav">
+  <span>IBA CC Dadu</span>
+</div>        
+<div class="card">
+  <div class="logo">IBA CC Dadu</div>
+
+  <h1 id="title">Welcome to IBA CC Dadu</h1>
+  <p id="subtitle">
+    A modern learning and professional development hub for students and future leaders in Dadu.
+  </p>
+
+  <div class="hr"></div>
+
+  <div class="facilities" id="facilities">
+    <span><div class="link item"><a class="link-active" href="collage.html"><font color="white">📚 collage</font></a></div></span>
+     <span><div class="link item"><a class="link-active" href="website.html"><font color="white">📚 Library</font></a></div></span>  
+    <span><div class="link item"><a class="link-active" href="science.html"><font color="white">🔬 Science Laboratory</font></a></div></span>
+    <span><div class="link item"><a class="link-active"href="computer.html"><font color="white">💻 Computer LAB</font></a></div></span>
+    <span><div class="link item"><a class="link-active" href="last.html"><font color="white">📚 feedback</font></a></div></span>
+
+  <div class="stats">
+    <div><strong>2011</strong>Founded</div>
+    <div><strong>Top-Ranked</strong>Community College</div>
+    <div><strong>Dadu</strong>Campus</div>
+  </div>
+
+  <div class="lang-btns">
+    <button id="en" class="active"><a class="link-active"href="#"><font color="white">English</font></a></button>
+    <button id="ru"><a class="link-active"href="#"><font color="white">Roman Urdu</font></a></button>
+  </div>
+
+  <div class="cta">
+    <button class="primary" id="start"><font color="white">Get Started</font></button>
+    <button class="ghost" id="learn">Learn More</button>
+  </div>
+
+  <div class="footer">
+    © 2025 IBA CC Dadu — Academic Excellence
+  </div>
+</div>
+
+<script>
+const LANG={
+en:{
+ title:"Welcome to IBA CC Dadu",
+ subtitle:"A modern learning and professional development hub for students and future leaders in Dadu.",
+ facilities:`<span>📚 Library</span>
+             <span>🔬 Science Laboratory</span>
+             <span>💻 Computer Lab</span>`
+},
+  
+ru:{
+ title:"IBA CC Dadu mein khush aamdeed",
+ subtitle:"Talaba aur mustaqbil ke leaders ke liye aik jadeed taleemi aur professional markaz Dadu mein.",
+ facilities:`<span>📚 Library</span>
+             <span>🔬 Science ki Laboratory</span>
+             <span>💻 Computer Lab</span>`
+}
+};
+
+function switchLang(l){
+ title.textContent=LANG[l].title;
+ subtitle.textContent=LANG[l].subtitle;
+ facilities.innerHTML=LANG[l].facilities;
+ en.classList.remove("active");
+ ru.classList.remove("active");
+ document.getElementById(l).classList.add("active");
+}
+
+en.onclick=()=>switchLang("en");
+ru.onclick=()=>switchLang("ru");
+</script>
+ 
+</body>
+</html>
